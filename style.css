@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   width: 500px;
   height: 150px;
-  margin-botton: 15px;
+  margin-bottom: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
 .fade .boton .verde:hover {
@@ -60,17 +60,11 @@ body {
 .tresd .boton .violeta {
   box-shadow: 0px 5px 1px 0px #720f72; }
 
-.tresd .boton .verde:hover,
-.tresd .boton .celeste:hover,
-.tresd .boton .naranja:hover,
-.tresd .boton .violeta:hover {
+.tresd .boton .solo:hover {
   transform: translateY(5px);
   box-shadow: none; }
 
-.border .boton .verde,
-.border .boton .celeste,
-.border .boton .naranja,
-.border .boton .violeta {
+.border .boton .solo {
   transform: initial; }
 
 .border .boton .verde:hover {
@@ -85,18 +79,22 @@ body {
 .border .boton .violeta:hover {
   box-shadow: 0px 0px 1px 5px #720f72; }
 
-.float .boton .verde:hover,
-.float .boton .celeste:hover,
-.float .boton .naranja:hover,
-.float .boton .violeta:hover {
+.float .boton .solo:hover {
   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
   transform: scale(1.1); }
 
-.slide .boton .verde:hover,
-.slide .boton .celeste:hover,
-.slide .boton .naranja:hover,
-.slide .boton .violeta:hover {
-  transform: translateY(30px); }
+.sorpresa {
+  color: black;
+  position: relative;
+  top: 12px;
+  right: 62px; }
+
+.slide .boton .solo {
+  z-index: 1;
+  padding: 0px 7px; }
+
+.slide .boton .solo:hover {
+  transform: translateY(50px); }
 
 .solo {
   width: 110px;

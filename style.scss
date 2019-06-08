@@ -59,7 +59,7 @@ body {
   flex-direction: column;
   width: $div-width;
   height: $div-height;
-  margin-botton: 15px;
+  margin-bottom: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .fade {
@@ -92,10 +92,7 @@ body {
     .violeta {
       box-shadow: 0px 5px 1px 0px $background-dark-violeta;
     }
-    .verde:hover,
-    .celeste:hover,
-    .naranja:hover,
-    .violeta:hover {
+    .solo:hover {
       transform: translateY(5px);
       box-shadow: none;
     }
@@ -103,10 +100,7 @@ body {
 }
 .border {
   .boton {
-    .verde,
-    .celeste,
-    .naranja,
-    .violeta {
+    .solo {
       transform: initial;
     }
     .verde:hover {
@@ -125,22 +119,26 @@ body {
 }
 .float {
   .boton {
-    .verde:hover,
-    .celeste:hover,
-    .naranja:hover,
-    .violeta:hover {
+    .solo:hover {
       box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
       transform: scale(1.1);
     }
   }
 }
+.sorpresa {
+  color: black;
+  position: relative;
+  top: 12px;
+  right: 62px;
+}
 .slide {
   .boton {
-    .verde:hover,
-    .celeste:hover,
-    .naranja:hover,
-    .violeta:hover {
-      transform: translateY(30px);
+    .solo {
+      z-index: 1;
+      padding: 0px 7px;
+    }
+    .solo:hover {
+      transform: translateY(50px);
     }
   }
 }
