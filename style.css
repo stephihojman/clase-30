@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #e7e7e7; }
+
+.title {
+  color: #39a139;
+  font-size: 35px;
+  text-align: left;
+  width: 500px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0px;
+  padding-bottom: 20px; }
+
+.boton {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px; }
+
+.fade,
+.tresd,
+.border,
+.float,
+.slide {
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 150px;
+  margin-botton: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+.fade .boton .verde:hover {
+  background-color: #236923; }
+
+.fade .boton .celeste:hover {
+  background-color: #4184c2; }
+
+.fade .boton .naranja:hover {
+  background-color: #946d25; }
+
+.fade .boton .violeta:hover {
+  background-color: #720f72; }
+
+.tresd .boton .verde {
+  box-shadow: 0px 5px 1px 0px #236923; }
+
+.tresd .boton .celeste {
+  box-shadow: 0px 5px 1px 0px #4184c2; }
+
+.tresd .boton .naranja {
+  box-shadow: 0px 5px 1px 0px #946d25; }
+
+.tresd .boton .violeta {
+  box-shadow: 0px 5px 1px 0px #720f72; }
+
+.tresd .boton .verde:hover,
+.tresd .boton .celeste:hover,
+.tresd .boton .naranja:hover,
+.tresd .boton .violeta:hover {
+  transform: translateY(5px);
+  box-shadow: none; }
+
+.border .boton .verde,
+.border .boton .celeste,
+.border .boton .naranja,
+.border .boton .violeta {
+  transform: initial; }
+
+.border .boton .verde:hover {
+  box-shadow: 0px 0px 1px 5px #236923; }
+
+.border .boton .celeste:hover {
+  box-shadow: 0px 0px 1px 5px #4184c2; }
+
+.border .boton .naranja:hover {
+  box-shadow: 0px 0px 1px 5px #946d25; }
+
+.border .boton .violeta:hover {
+  box-shadow: 0px 0px 1px 5px #720f72; }
+
+.float .boton .verde:hover,
+.float .boton .celeste:hover,
+.float .boton .naranja:hover,
+.float .boton .violeta:hover {
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1); }
+
+.slide .boton .verde:hover,
+.slide .boton .celeste:hover,
+.slide .boton .naranja:hover,
+.slide .boton .violeta:hover {
+  transform: translateY(30px); }
+
+.solo {
+  width: 110px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  transition: all 0.3s; }
+
+.verde {
+  background-color: #39a139; }
+
+.celeste {
+  background-color: #77a8d6; }
+
+.naranja {
+  background-color: #ffbb3c; }
+
+.violeta {
+  background-color: #c50dc5; }
